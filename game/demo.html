@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation coding tic Tac Toe</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="dialogs">
+
+            <div class="cover"></div>
+
+            <div class="pick">
+                <h2 class="msg">Pick</h2>
+                <button class="x"></button>
+                <button class="o"></button>
+            </div> <!-- end-pick -->
+
+            <div class="end">
+                <h2 class="msg"></h2>
+                <button class="replay"><i class="fa fa-refresh"></i></button>
+            </div> <!-- end-end -->
+
+        </div> <!-- end-dialogs -->
+
+        <div class="container">
+
+            <div class="game">
+
+                <div class="row top">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div> <!-- end-row -->
+
+                <div class="row middle">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div> <!-- end-row -->
+
+                <div class="row bottom">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div> <!-- end-row -->
+
+            </div> <!-- end-game -->
+
+            <div class="scores">
+                <div class="row">
+                    <div class="col p">
+                        <h2>Player - <span class="char">X</span></h2>
+                        <u>0</u>
+                    </div>
+                    <div class="col ties">
+                        <h2>Ties</h2>
+                        <u>0</u>
+                    </div>
+                    <div class="col com">
+                        <h2>Computer - <span class="char">O</span></h2>
+                        <u>0</u>
+                    </div>
+                </div>
+            </div>
+            <!-- end-scores -->
+
+        </div> <!-- end-container -->
+
+    </div> <!-- end-wrapper -->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
